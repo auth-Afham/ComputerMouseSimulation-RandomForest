@@ -2,7 +2,6 @@ import pyautogui
 import time
 import math
 from pynput.mouse import Listener as MouseListener, Button, Controller
-import xgboost
 from PIL import Image
 import pandas as pd
 import numpy as np
@@ -134,7 +133,7 @@ def get_screenshot(RESIZED_WIDTH, RESIZED_HEIGHT, temp_data):
     return temp_data
 
 # Train RandomForest models
-def train_xgboost_models(full_data):
+def train_randomforest_models(full_data):
     global cursor_angle_model, cursor_speed_model, cursor_button_model
 
     # Extract features (X) and targets (y_angle, y_speed)
@@ -254,7 +253,7 @@ with MouseListener(on_click=get_cursor_click) as mouse_listener:
             temp_data = get_screenshot(RESIZED_WIDTH, RESIZED_HEIGHT, temp_data)
 
             # Train RandomForest models with full_data
-            train_xgboost_models(full_data)
+            train_randomforest_models(full_data)
 
             if not user_movement:
                 temp_data = predict_cursor_angle(temp_data)
