@@ -11,7 +11,6 @@ Ensure you have the following Python libraries installed:
 ```bash
 pip install pyautogui
 pip install pynput
-pip install xgboost
 pip install pillow
 pip install pandas
 pip install numpy
@@ -39,7 +38,7 @@ pip install scikit-learn
 - The `initialize_dataset` function sets up the initial dataset structure.
 - RandomForest models are initialized using the `initialize_randomforest_models` function.
 - Cursor movement and screen pixels are captured in the `get_cursor_position_and_movement` and `get_screenshot` functions.
-- The `train_xgboost_models` function trains the XGBoost models using the dataset.
+- The `train_randomforest_models` function trains the Random Forest models using the dataset.
 - Prediction functions (`predict_cursor_angle`, `predict_cursor_speed`, `predict_cursor_button`) predict cursor behavior based on the captured data.
 - The `set_cursor_movement` and `set_cursor_button` functions simulate cursor movement and button clicks.
 
