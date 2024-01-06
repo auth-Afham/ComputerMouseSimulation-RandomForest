@@ -21,7 +21,7 @@ pip install scikit-learn
 
 1. **Define Screen Size**: Set the `SCREEN_WIDTH` and `SCREEN_HEIGHT` variables according to your screen dimensions.
 
-2. Download Pre-built Executable:
+2. **Download Pre-built Executable**:
 
    - You can download the pre-built executable version of this script from [this link](https://drive.google.com/file/d/1EH4RaJqxW8Zfgbs7PcUBUWW-1u6qV3JB/view?usp=sharing).
    - Install the executable locally.
