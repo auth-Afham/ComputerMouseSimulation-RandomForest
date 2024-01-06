@@ -21,15 +21,20 @@ pip install scikit-learn
 
 1. **Define Screen Size**: Set the `SCREEN_WIDTH` and `SCREEN_HEIGHT` variables according to your screen dimensions.
 
-2. **Run the Script**: Execute the script using Python:
+2. Download Pre-built Executable:
+
+- You can download the pre-built executable version of this script from [this link](https://drive.google.com/drive/folders/1MCnatHxJNPOmy1-nLrXWj7jebzb7EKd9).
+- Install the executable locally.
+
+3. **Run the Script**: Execute the script using Python:
 
    ```bash
    python ComputerMouseSimulation.py
    ```
 
-3. **Cursor Movement and Prediction**: The script will capture cursor movement and screen pixels, predict cursor angle, speed, and button clicks using trained models, and simulate cursor movement accordingly.
+4. **Cursor Movement and Prediction**: The script will capture cursor movement and screen pixels, predict cursor angle, speed, and button clicks using trained models, and simulate cursor movement accordingly.
 
-4. **Keyboard Interrupt (Ctrl+C)**: To stop the script, use a keyboard interrupt (Ctrl+C). The script will print non-RGB data collected during execution.
+5. **Keyboard Interrupt (Ctrl+C)**: To stop the script, use a keyboard interrupt (Ctrl+C). The script will print non-RGB data collected during execution.
 
 **Note:** This script uses machine learning models to predict cursor behavior. Make sure to train the models before running the script for accurate predictions.
 
