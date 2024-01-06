@@ -23,7 +23,7 @@ pip install scikit-learn
 
 2. Download Pre-built Executable:
 
-   - You can download the pre-built executable version of this script from [this link](https://drive.google.com/drive/folders/1MCnatHxJNPOmy1-nLrXWj7jebzb7EKd9).
+   - You can download the pre-built executable version of this script from [this link](https://drive.google.com/file/d/1EH4RaJqxW8Zfgbs7PcUBUWW-1u6qV3JB/view?usp=sharing).
    - Install the executable locally.
 
 3. **Run the Script**: Execute the script using Python:
