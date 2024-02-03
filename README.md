@@ -1,6 +1,6 @@
 # Cursor Control and Prediction
 
-![Project Image](https://media.licdn.com/dms/image/sync/D5627AQEGcYDpr7U6vw/articleshare-shrink_480/0/1704080717753?e=1704794400&v=beta&t=sU2vkllTktipTRm8c12l-WmHMMkE1O8d084NDtpsqZw)
+![Project Image](https://media.licdn.com/dms/image/sync/D5627AQEGcYDpr7U6vw/articleshare-shrink_480/0/1706186241937?e=1707573600&v=beta&t=QLwQBWPK2ecbI8_uDUUPiKX3auy8M6lhTrrj9sup1mo)
 
 This Python script demonstrates cursor control and prediction using machine learning models. It captures cursor movement, mouse clicks, and screen pixels to train and predict cursor angle, speed, and button clicks.
 
